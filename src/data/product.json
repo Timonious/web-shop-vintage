@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "k00100010001",
+    "dateAdded": "18-06-2021",
+    "productName": "jurk",
+    "brandName": "jottem",
+    "size": 128,
+    "price": 35,
+    "quantity": 1,
+    "categories": ["kinderkleding", "kleding"],
+    "condition": "zgan",
+    "material": "100% katoen"
+  },
+  {
+    "productId": "v00100020001",
+    "dateAdded": "18-06-2021",
+    "productName": "broek",
+    "brandName": "levi",
+    "size": 42,
+    "price": 25,
+    "quantity": 1,
+    "categories": ["dameskleding", "kleding"],
+    "condition": "zgan",
+    "material": "spijkerstof"
+  }
+]
