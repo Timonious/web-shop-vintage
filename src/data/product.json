@@ -7,7 +7,10 @@
     "size": 128,
     "price": 35,
     "quantity": 1,
-    "categories": ["kinderkleding", "kleding"],
+    "categories": [
+      "kinderkleding",
+      "kleding"
+    ],
     "condition": "zgan",
     "material": "100% katoen"
   },
@@ -19,8 +22,38 @@
     "size": 42,
     "price": 25,
     "quantity": 1,
-    "categories": ["dameskleding", "kleding"],
+    "categories": [
+      "dameskleding",
+      "kleding"
+    ],
     "condition": "zgan",
     "material": "spijkerstof"
+  },
+  {
+    "productId": "s00100020001",
+    "dateAdded": "18-06-2021",
+    "productName": "sneaker",
+    "brandName": "nike",
+    "size": 22,
+    "price": 15,
+    "quantity": 1,
+    "categories": [
+      "kinderschoenen",
+      "schoenen"
+    ],
+    "condition": "zgan",
+    "material":"leer"
+  },
+  {
+    "productId": "c00100010001",
+    "dateAdded": "21-06-2021",
+    "productName": "auto",
+    "brandName": "nissan",
+    "price": 1200,
+    "material": null,
+    "categories":["overige"],
+    "condition":"gebruikt",
+    "quantity":1,
+    "size":null
   }
 ]

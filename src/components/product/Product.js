@@ -8,14 +8,11 @@ export const Product = () => {
     const i = products.findIndex(x => x.productId === id)
 
 const {
-        productId,
-    dateAdded,
     productName,
     brandName,
     size,
     price,
     quantity,
-    categories,
     condition,
     material
     } = products[i]
@@ -25,10 +22,10 @@ return (
             <h3>{brandName}</h3>
             <p>{price}</p>
             <ul>
-                <li>maat: {size}</li>
-                {quantity > 1 &&
-                <li>voorraad: {quantity}</li>
-                }
+                {size && <li>maat: {size}</li>}
+                {condition && <li>staat: {condition}</li>}
+                {material && <li>materiaal: {material}</li>}
+                {quantity > 1 &&<li>voorraad: {quantity}</li>}
 
 
             </ul>
