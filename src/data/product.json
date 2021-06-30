@@ -7,10 +7,8 @@
     "size": 128,
     "price": 35,
     "quantity": 1,
-    "categories": [
-      "kinderkleding",
-      "kleding"
-    ],
+    "mainCategory": "kleding",
+    "subCategory": "kinderkleding",
     "condition": "zgan",
     "material": "100% katoen"
   },
@@ -22,10 +20,8 @@
     "size": 42,
     "price": 25,
     "quantity": 1,
-    "categories": [
-      "dameskleding",
-      "kleding"
-    ],
+    "mainCategory": "kleding",
+    "subCategory": "dameskleding",
     "condition": "zgan",
     "material": "spijkerstof"
   },
@@ -37,10 +33,8 @@
     "size": 22,
     "price": 15,
     "quantity": 1,
-    "categories": [
-      "kinderschoenen",
-      "schoenen"
-    ],
+    "mainCategory": "schoenen",
+    "subCategory": "kinderschoenen",
     "condition": "zgan",
     "material":"leer"
   },
@@ -51,7 +45,8 @@
     "brandName": "nissan",
     "price": 1200,
     "material": null,
-    "categories":["overige"],
+    "mainCategory": "overige",
+    "subCategory": null,
     "condition":"gebruikt",
     "quantity":1,
     "size":null
