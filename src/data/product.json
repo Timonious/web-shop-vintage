@@ -13,6 +13,19 @@
     "material": "100% katoen"
   },
   {
+    "productId": "k00100010004",
+    "dateAdded": "01-07-2021",
+    "productName": "hemd",
+    "brandName": "cosilana",
+    "size": 128,
+    "price": 15,
+    "quantity": 1,
+    "mainCategory": "kleding",
+    "subCategory": "kinderkleding",
+    "condition": "gebruikt",
+    "material": "wol-zijde"
+  },
+  {
     "productId": "v00100020001",
     "dateAdded": "18-06-2021",
     "productName": "broek",
