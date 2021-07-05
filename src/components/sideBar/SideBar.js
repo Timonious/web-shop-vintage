@@ -1,32 +1,32 @@
 import products from '../../data/product.json'
-
+import { Categories } from './Categories'
 
 export const SideBar = () => {
-
-      
+    const subCat = (mC) => {
+          let sC = []
+          for (let index = 0; index < products.length; index++) {
+             if (mC === products[index].mainCategory) {
+                 sC = [...sC, products[index].subCategory] 
+             } 
+          }
+        
+          return sC.filter((a, b) => sC.indexOf(a) === b)
+      }
     
-    // const mainCategories = [...new Set(products.map(x => x.mainCategory))]
-    // console.log(mainCategories);
-
     const categories = Array.from(new Set(products.map(s => s.mainCategory))).map(mainCategory => {
         return {
             mainCat: mainCategory,
-            subCat:  products.map(a => a.mainCategory).subCategory
-            // subCat: [...new Set(products.map(x => x.subCategory))]
-            // products.find(s => s.mainCategory === mainCategory).subCategory
+            subCat: subCat(mainCategory)
         }
     })
-
-    
-
-    console.log(categories);
     return (
         <ul>
         {categories.map((cat) => {
             console.log(cat);
             return(
-                <li key={cat.mainCat}>{cat.mainCat}</li>
+                <Categories cat={cat.mainCat} catSub={cat.subCat}/>
             )        })}
         </ul>
+        
     )
 }
