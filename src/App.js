@@ -18,7 +18,6 @@ const App = () => {
     //   firebase.initializeApp(firebaseConfig)
     return (
         <>
-            <h1>Hallo Webshop!</h1>
             <SideBar />
             <Switch>
                 <Route exact path='/'>
