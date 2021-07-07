@@ -1,6 +1,7 @@
 import products from '../../data/product.json'
 import { Categories } from './Categories'
 
+
 export const SideBar = () => {
     const subCat = (mC) => {
           let sC = []

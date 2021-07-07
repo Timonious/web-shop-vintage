@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Link } from "react-router-dom";
 
 export const Categories = ({cat, catSub}) => {
 const [showSub, toggleShowSub] = useState(false) 
@@ -18,7 +18,7 @@ const showSubCat = () => {
                 <ul>
                     {catSub && catSub.map((sCat) => {
                          return(
-                            <li key={sCat}>{sCat}</li>
+                            <li key={sCat}><Link to={`/product-page/${sCat}`}>{sCat}</Link></li>
                         )
                     })}
                     </ul>}

@@ -1,6 +1,7 @@
 import './App.css'
 import { Main } from '../src/pages/main/Main'
 import { Product } from '../src/components/product/Product'
+import { ProductsPage } from "../src/pages/productsPage/ProductsPage";
 import { SideBar } from '../src/components/sideBar/SideBar';
 import { Switch, Route } from 'react-router-dom'
 import firebase from "firebase/app"
@@ -23,12 +24,13 @@ const App = () => {
                 <Route exact path='/'>
                     <Main />
                 </Route>
+                <Route path='/product-page/:id'>
+                    <ProductsPage />
+                </Route>
                 <Route path='/product/:id'>
                     <Product />
                 </Route>
             </Switch>
-
-
         </>
     )
 }
