@@ -1,7 +1,7 @@
 [
   {
     "productId": "k00100010001",
-    "dateAdded": "18-06-2021",
+    "dateAdded": 20210618,
     "productName": "jurk",
     "brandName": "jottem",
     "size": 128,
@@ -14,7 +14,7 @@
   },
   {
     "productId": "k00100010004",
-    "dateAdded": "01-07-2021",
+    "dateAdded": 20210701,
     "productName": "hemd",
     "brandName": "cosilana",
     "size": 128,
@@ -27,7 +27,7 @@
   },
   {
     "productId": "v00100020001",
-    "dateAdded": "18-06-2021",
+    "dateAdded": 20210618,
     "productName": "broek",
     "brandName": "levi",
     "size": 42,
@@ -40,7 +40,7 @@
   },
   {
     "productId": "s00100020001",
-    "dateAdded": "18-06-2021",
+    "dateAdded": 20210618,
     "productName": "sneaker",
     "brandName": "nike",
     "size": 22,
@@ -53,7 +53,7 @@
   },
   {
     "productId": "c00100010001",
-    "dateAdded": "21-06-2021",
+    "dateAdded": 20210621,
     "productName": "auto",
     "brandName": "nissan",
     "price": 1200,
